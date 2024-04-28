@@ -1,0 +1,16 @@
+id = "fsharp"
+name = "FSharp"
+version = "0.0.1"
+schema_version = 1
+authors = ["oupson <oupson1er@gmail.com>"]
+description = ""
+repository = "https://github.com/oupson/zed-fsharp"
+
+[grammars.fsharp]
+repository = "https://github.com/ionide/tree-sitter-fsharp"
+commit = "8d65614998318a70c5646c64229068029ebc89cb"
+
+[language_servers.fsharp]
+language = "FSharp"
+name = "fsautocomplete"
+language_ids = { FSharp = "fsharp" }
